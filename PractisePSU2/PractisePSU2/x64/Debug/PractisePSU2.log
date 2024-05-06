@@ -1,0 +1,4 @@
+﻿  CppCLR_WinFormsProject.cpp
+D:\GitHub\PractisePSU\PractisePSU2\Form1.h(221,1): warning C4700: uninitialized local variable 'a' used
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  PractisePSU2.vcxproj -> D:\GitHub\PractisePSU\PractisePSU2\x64\Debug\PractisePSU2.exe

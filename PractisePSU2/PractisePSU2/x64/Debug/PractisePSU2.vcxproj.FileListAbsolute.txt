@@ -1,0 +1,3 @@
+D:\GitHub\PractisePSU\PractisePSU2\PractisePSU2\x64\Debug\PractisePSU2.vcxproj.AssemblyReference.cache
+D:\GitHub\PractisePSU\PractisePSU2\PractisePSU2\x64\Debug\PractisePSU2.Form1.resources
+D:\GitHub\PractisePSU\PractisePSU2\PractisePSU2\x64\Debug\PractisePSU2.vcxproj.GenerateResource.cache
