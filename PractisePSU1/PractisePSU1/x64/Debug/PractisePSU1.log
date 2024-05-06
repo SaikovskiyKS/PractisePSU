@@ -1,2 +1,5 @@
-﻿  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+﻿  CppCLR_WinFormsProject.cpp
+  MyForm.cpp
+  Generating Code...
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   PractisePSU1.vcxproj -> D:\GitHub\PractisePSU\PractisePSU1\x64\Debug\PractisePSU1.exe

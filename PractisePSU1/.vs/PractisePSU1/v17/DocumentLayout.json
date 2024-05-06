@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\PractisePSU\\PractisePSU1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
-      "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+      "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:Form1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{26FC1AB6-0392-4779-B51B-A3E22E176AE3}|PractisePSU1.vcxproj|solutionrelative:Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -36,46 +36,47 @@
               "RelativeDocumentMoniker": "Form1.h",
               "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.h",
               "RelativeToolTip": "Form1.h",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAswC8BAABbAAAA",
+              "ViewState": "AQIAAIoBAAAAAAAAAAAIwJsBAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T11:53:26.459Z",
+              "WhenOpened": "2024-05-06T17:18:41.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.h [Design]",
               "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.h",
               "RelativeDocumentMoniker": "Form1.h",
               "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.h [Design]",
               "RelativeToolTip": "Form1.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T10:18:06.734Z",
+              "WhenOpened": "2024-05-06T17:17:19.631Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CppCLR_WinFormsProject.cpp",
-              "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU1\\CppCLR_WinFormsProject.cpp",
-              "RelativeDocumentMoniker": "CppCLR_WinFormsProject.cpp",
-              "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU1\\CppCLR_WinFormsProject.cpp",
-              "RelativeToolTip": "CppCLR_WinFormsProject.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-06T10:17:04.505Z"
+              "DocumentIndex": 0,
+              "Title": "MyForm.h",
+              "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU1\\MyForm.h",
+              "RelativeDocumentMoniker": "MyForm.h",
+              "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU1\\MyForm.h",
+              "RelativeToolTip": "MyForm.h",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-06T17:13:25.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cpp",
-              "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.cpp",
-              "RelativeDocumentMoniker": "Form1.cpp",
-              "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU1\\Form1.cpp",
-              "RelativeToolTip": "Form1.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-06T10:16:59.759Z"
+              "Title": "MyForm.h [Design]",
+              "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU1\\MyForm.h",
+              "RelativeDocumentMoniker": "MyForm.h",
+              "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU1\\MyForm.h [Design]",
+              "RelativeToolTip": "MyForm.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-06T17:13:21.507Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -1,7 +1,6 @@
 #pragma once
-
+#include "MyForm.h"
 namespace CppCLRWinFormsProject {
-
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
@@ -106,6 +105,7 @@ namespace CppCLRWinFormsProject {
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Запуск формы";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &Form1::button2_Click);
 			// 
 			// button3
 			// 
@@ -116,6 +116,7 @@ namespace CppCLRWinFormsProject {
 			this->button3->TabIndex = 2;
 			this->button3->Text = L"Выход";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
 			// 
 			// listBox1
 			// 
@@ -141,6 +142,8 @@ namespace CppCLRWinFormsProject {
 			// checkBox4
 			// 
 			this->checkBox4->AutoSize = true;
+			this->checkBox4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Strikeout, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->checkBox4->Location = System::Drawing::Point(7, 89);
 			this->checkBox4->Name = L"checkBox4";
 			this->checkBox4->Size = System::Drawing::Size(105, 17);
@@ -151,6 +154,8 @@ namespace CppCLRWinFormsProject {
 			// checkBox3
 			// 
 			this->checkBox3->AutoSize = true;
+			this->checkBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->checkBox3->Location = System::Drawing::Point(6, 65);
 			this->checkBox3->Name = L"checkBox3";
 			this->checkBox3->Size = System::Drawing::Size(99, 17);
@@ -161,6 +166,8 @@ namespace CppCLRWinFormsProject {
 			// checkBox2
 			// 
 			this->checkBox2->AutoSize = true;
+			this->checkBox2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->checkBox2->Location = System::Drawing::Point(6, 42);
 			this->checkBox2->Name = L"checkBox2";
 			this->checkBox2->Size = System::Drawing::Size(82, 17);
@@ -171,9 +178,11 @@ namespace CppCLRWinFormsProject {
 			// checkBox1
 			// 
 			this->checkBox1->AutoSize = true;
+			this->checkBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->checkBox1->Location = System::Drawing::Point(6, 19);
 			this->checkBox1->Name = L"checkBox1";
-			this->checkBox1->Size = System::Drawing::Size(91, 17);
+			this->checkBox1->Size = System::Drawing::Size(101, 17);
 			this->checkBox1->TabIndex = 0;
 			this->checkBox1->Text = L"Полужирный";
 			this->checkBox1->UseVisualStyleBackColor = true;
@@ -300,8 +309,107 @@ namespace CppCLRWinFormsProject {
 	private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		if (textBox1->Text != "") {
+			this->listBox1->Items->Clear();
+			this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204))); this->listBox1->ForeColor = System::Drawing::Color::Black; this->listBox1->Items->Add(this->textBox1->Text);
+			//Устанавливает красный цвет для текста
+			if (radioButton1->Checked == true) {
+				this->listBox1->ForeColor = System::Drawing::Color::Red;
+			}
+			//Устанавливает синий цвет для текста
+			if (radioButton2->Checked == true) {
+				this->listBox1->ForeColor = System::Drawing::Color::Blue;
+			}
+			//Устанавливает зеленый цвет для текста
+			if (radioButton3->Checked == true) {
+				this->listBox1->ForeColor = System::Drawing::Color::Green;
+			}
+			//Устанавливает желтый цвет для текста
+			if (radioButton4->Checked == true) {
+				this->listBox1->ForeColor = System::Drawing::Color::Yellow;
+			}
+			//Устанавливает черный цвет для текста
+			if (radioButton5->Checked == true) {
+				this->listBox1->ForeColor = System::Drawing::Color::Black;
+			}
+			//Устанавливает атрибут «жирность» для текста
+			if (checkBox1->Checked == true) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибут «курсив» для текста 
+			if (checkBox2->Checked == true) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Italic, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибут «подчеркнутый» для текста 
+			if (checkBox3->Checked == true) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Underline, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибут «зачеркнутый» для текста 
+			if (checkBox4->Checked == true) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Strikeout, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «жирность», «курсив» для текста 
+			if ((checkBox1->Checked == true) && (checkBox2->Checked ==
+				true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «жирность», «курсив» и «подчеркнутый» для текста 
+			if ((checkBox1->Checked == true) && ((checkBox2->Checked == true)) && (checkBox3->Checked == true)) { this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic) | System::Drawing::FontStyle::Underline)), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204))); }
+			//Устанавливает атрибуты «жирность», «курсив», «подчеркнутый» и «зачеркнутый» для текста
+			if ((checkBox1->Checked == true) && (checkBox2->Checked == true) && (checkBox3->Checked == true) && (checkBox4->Checked == true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic | System::Drawing::FontStyle::Underline | System::Drawing::FontStyle::Strikeout), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «курсив», «подчеркнутый» и «зачеркнутый» для текста 
+			if ((checkBox2->Checked == true) && (checkBox3->Checked ==true) && (checkBox4->Checked == true)){this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Italic | System::Drawing::FontStyle::Underline | System::Drawing::FontStyle::Strikeout), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+		}
+			//Устанавливает атрибуты «курсив», «подчеркнутый» для текста 
+			if ((checkBox2->Checked == true) && (checkBox3->Checked ==true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Italic | System::Drawing::FontStyle::Underline), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «курсив», «зачеркнутый» для текста 
+			if ((checkBox2->Checked == true) && (checkBox4->Checked ==true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Italic | System::Drawing::FontStyle::Strikeout), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «жирность», «подчеркнутый» для текста 
+			if ((checkBox1->Checked == true) && (checkBox3->Checked ==
+				true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Underline), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «подчеркнутый», «зачеркнутый» для текста 
+			if ((checkBox3->Checked == true) && (checkBox4->Checked == true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Underline | System::Drawing::FontStyle::Strikeout), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «жирность», «зачеркнутый» для текста 
+			if ((checkBox1->Checked == true) && (checkBox4->Checked ==true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Strikeout), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «жирность», «подчеркнутый», «зачеркнутый» для текста 
+			if ((checkBox1->Checked == true) && (checkBox3->Checked ==true)) {
+				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>(System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Underline), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
+			}
+			//Устанавливает атрибуты «жирность», «курсив», «зачеркнутый» для текста 
+			if ((checkBox1->Checked == true) && ((checkBox2->Checked ==
+				true)) && (checkBox4->Checked == true)) {
+				this->listBox1->Font =
+					(gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic | System::Drawing::FontStyle::Strikeout)), System::Drawing::GraphicsUnit::Point ,static_cast<System::Byte>(204)));
+			}
+		}
+		else
+		{
+			MessageBox::Show("Заполните пожалуйста данные", "Ошибка вво-да данных", 
+				MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+		}
 	}
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
+	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+	MyForm^ f = gcnew MyForm();
+		this->Hide();
+		f->ShowDialog();
+		this->Show();
+	}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+	Application::Exit();
+}
 };
 }
