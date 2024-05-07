@@ -2,6 +2,7 @@
 
 using namespace System;
 
+
 // int main(array<System::String ^> ^args)
 // {
 //    return 0;
@@ -16,6 +17,6 @@ int main()
 {
   Application::EnableVisualStyles();
   Application::SetCompatibleTextRenderingDefault(false);
-  Application::Run(gcnew CppCLRWinFormsProject::Form1());
+  Application::Run(gcnew PracticePSU2::Form1());
   return 0;
 }

@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{910B5CE2-A860-4E0E-BF5D-51A4E91B956F}|PractisePSU2.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU2\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{910B5CE2-A860-4E0E-BF5D-51A4E91B956F}|PractisePSU2.vcxproj|solutionrelative:Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{910B5CE2-A860-4E0E-BF5D-51A4E91B956F}|PractisePSU2.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU2\\CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{910B5CE2-A860-4E0E-BF5D-51A4E91B956F}|PractisePSU2.vcxproj|solutionrelative:CppCLR_WinFormsProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,22 +28,10 @@
               "RelativeDocumentMoniker": "Form1.h",
               "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU2\\Form1.h",
               "RelativeToolTip": "Form1.h",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAswK4AAABIAAAA",
+              "ViewState": "AQIAABABAAAAAAAAAAAAACoBAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T17:54:17.404Z",
+              "WhenOpened": "2024-05-07T09:00:27.025Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CppCLR_WinFormsProject.cpp",
-              "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU2\\CppCLR_WinFormsProject.cpp",
-              "RelativeDocumentMoniker": "CppCLR_WinFormsProject.cpp",
-              "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU2\\CppCLR_WinFormsProject.cpp",
-              "RelativeToolTip": "CppCLR_WinFormsProject.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-06T18:11:04.302Z"
             },
             {
               "$type": "Document",
@@ -58,7 +42,11 @@
               "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU2\\Form1.h [Design]",
               "RelativeToolTip": "Form1.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T17:48:17.669Z"
+              "WhenOpened": "2024-05-07T09:00:21.846Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

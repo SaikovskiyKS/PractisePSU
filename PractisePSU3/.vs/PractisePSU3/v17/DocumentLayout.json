@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\GitHub\\PractisePSU\\PractisePSU3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{91676FC5-0952-4365-B282-33112D3E7FAB}|PractisePSU3.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU3\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{91676FC5-0952-4365-B282-33112D3E7FAB}|PractisePSU3.vcxproj|solutionrelative:Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{91676FC5-0952-4365-B282-33112D3E7FAB}|PractisePSU3.vcxproj|D:\\GitHub\\PractisePSU\\PractisePSU3\\Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{91676FC5-0952-4365-B282-33112D3E7FAB}|PractisePSU3.vcxproj|solutionrelative:Form1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
     }
@@ -19,14 +23,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.h",
+              "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU3\\Form1.h",
+              "RelativeDocumentMoniker": "Form1.h",
+              "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU3\\Form1.h",
+              "RelativeToolTip": "Form1.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-07T09:19:11.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.h [Design]",
               "DocumentMoniker": "D:\\GitHub\\PractisePSU\\PractisePSU3\\Form1.h",
               "RelativeDocumentMoniker": "Form1.h",
               "ToolTip": "D:\\GitHub\\PractisePSU\\PractisePSU3\\Form1.h [Design]",
               "RelativeToolTip": "Form1.h [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T18:56:36.052Z",
+              "WhenOpened": "2024-05-07T09:03:51.786Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

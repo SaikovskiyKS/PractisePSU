@@ -7,6 +7,7 @@ namespace CppCLRWinFormsProject {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace PractisePSU1;
 
 	/// <summary>
 	/// Summary for Form1
@@ -403,7 +404,7 @@ namespace CppCLRWinFormsProject {
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	MyForm^ f = gcnew MyForm();
+	PractisePSU1::MyForm^ f = gcnew MyForm();
 		this->Hide();
 		f->ShowDialog();
 		this->Show();

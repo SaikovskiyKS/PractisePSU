@@ -1,4 +1,3 @@
 D:\GitHub\PractisePSU\PractisePSU1\PractisePSU1\x64\Release\PractisePSU1.vcxproj.AssemblyReference.cache
 D:\GitHub\PractisePSU\PractisePSU1\PractisePSU1\x64\Release\PractisePSU1.Form1.resources
-D:\GitHub\PractisePSU\PractisePSU1\PractisePSU1\x64\Release\PractisePSU1.MyForm.resources
 D:\GitHub\PractisePSU\PractisePSU1\PractisePSU1\x64\Release\PractisePSU1.vcxproj.GenerateResource.cache

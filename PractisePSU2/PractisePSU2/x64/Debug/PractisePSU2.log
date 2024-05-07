@@ -1,4 +1,9 @@
-﻿  CppCLR_WinFormsProject.cpp
-D:\GitHub\PractisePSU\PractisePSU2\Form1.h(221,1): warning C4700: uninitialized local variable 'a' used
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinFormsProject.cpp
+  Form1.cpp
+  Generating Code...
+D:\GitHub\PractisePSU\PractisePSU2\Form1.h(223,1): warning C4700: uninitialized local variable 'a' used
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   PractisePSU2.vcxproj -> D:\GitHub\PractisePSU\PractisePSU2\x64\Debug\PractisePSU2.exe

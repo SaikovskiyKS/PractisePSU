@@ -1,0 +1,6 @@
+﻿  CppCLR_WinFormsProject.cpp
+D:\GitHub\PractisePSU\PractisePSU3\Form1.h(296,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file '/CppCLR_WinFormsProject.cpp')
+  
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  PractisePSU3.vcxproj -> D:\GitHub\PractisePSU\PractisePSU3\x64\Release\PractisePSU3.exe

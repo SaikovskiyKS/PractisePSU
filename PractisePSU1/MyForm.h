@@ -1,6 +1,6 @@
 #pragma once
 //this->pictureBox1->Image = System::Drawing::Image::FromFile("img1.bmp");
-namespace CppCLRWinFormsProject {
+namespace PractisePSU1 {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -53,8 +53,10 @@ namespace CppCLRWinFormsProject {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button1

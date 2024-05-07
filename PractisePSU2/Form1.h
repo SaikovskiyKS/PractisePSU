@@ -1,7 +1,8 @@
 #pragma once
 #include <math.h>
 #include <string.h>
-namespace CppCLRWinFormsProject {
+//this->pictureBox1->Image = System::Drawing::Image::FromFile("img2.png");
+namespace PracticePSU2 {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -60,6 +61,7 @@ namespace CppCLRWinFormsProject {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Form1::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
@@ -171,8 +173,8 @@ namespace CppCLRWinFormsProject {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Location = System::Drawing::Point(12, 25);
 			this->pictureBox1->Image = System::Drawing::Image::FromFile("img2.png");
+			this->pictureBox1->Location = System::Drawing::Point(12, 25);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(260, 100);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
