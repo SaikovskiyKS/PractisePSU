@@ -66,6 +66,7 @@ namespace PractisePSU5 {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(100, 20);
 			this->textBox1->TabIndex = 0;
+			this->textBox1->Text = L"1";
 			this->textBox1->Leave += gcnew System::EventHandler(this, &MyForm::textBox1_Leave);
 			// 
 			// label1
@@ -120,6 +121,7 @@ namespace PractisePSU5 {
 	}
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		h = Convert::ToInt32(textBox1->Text); m = Convert::ToInt32(textBox1 -> Text);
+		this->Hide();
 	}
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->Hide();
@@ -134,9 +136,9 @@ private: System::Void textBox1_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;

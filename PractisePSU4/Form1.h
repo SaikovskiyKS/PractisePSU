@@ -285,9 +285,9 @@ private: System::Void textBox1_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;
@@ -316,9 +316,9 @@ private: System::Void textBox2_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;
@@ -347,9 +347,9 @@ private: System::Void textBox3_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;

@@ -126,9 +126,9 @@ namespace CppCLRWinFormsProject {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^ legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^ legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->toolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->toolStripMenuItem2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
@@ -539,20 +539,20 @@ namespace CppCLRWinFormsProject {
 			// 
 			// chart1
 			// 
-			chartArea2->Name = L"ChartArea1";
-			this->chart1->ChartAreas->Add(chartArea2);
-			legend2->Enabled = false;
-			legend2->Name = L"Legend1";
-			this->chart1->Legends->Add(legend2);
+			chartArea1->Name = L"ChartArea1";
+			this->chart1->ChartAreas->Add(chartArea1);
+			legend1->Enabled = false;
+			legend1->Name = L"Legend1";
+			this->chart1->Legends->Add(legend1);
 			this->chart1->Location = System::Drawing::Point(3, 6);
 			this->chart1->Name = L"chart1";
-			series2->ChartArea = L"ChartArea1";
-			series2->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
-			series2->Legend = L"Legend1";
-			series2->Name = L"Series1";
-			series2->XValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
-			series2->YValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
-			this->chart1->Series->Add(series2);
+			series1->ChartArea = L"ChartArea1";
+			series1->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Spline;
+			series1->Legend = L"Legend1";
+			series1->Name = L"Series1";
+			series1->XValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
+			series1->YValueType = System::Windows::Forms::DataVisualization::Charting::ChartValueType::Double;
+			this->chart1->Series->Add(series1);
 			this->chart1->Size = System::Drawing::Size(443, 294);
 			this->chart1->TabIndex = 0;
 			this->chart1->Text = L"chart1";
@@ -570,6 +570,7 @@ namespace CppCLRWinFormsProject {
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"Form1";
 			this->Text = L"Выполнил Сайковский К. С.";
+			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
 			this->tabControl1->ResumeLayout(false);
@@ -673,7 +674,7 @@ private: System::Void toolStripMenuItem9_Click(System::Object^ sender, System::E
 }
 private: System::Void toolStripMenuItem10_Click(System::Object^ sender, System::EventArgs^ e) {
 	MyForm^ f = gcnew MyForm();
-	this->Hide(); f -> ShowDialog(); this -> Show();
+	this->Hide(); f->ShowDialog(); this->Show();
 	for (int i = 0; i < dataGridView1->ColumnCount; i++)
 	{
 		DataGridViewColumn^ column = dataGridView1->Columns[i];
@@ -728,9 +729,9 @@ private: System::Void toolStripMenuItem2_Click(System::Object^ sender, System::E
 		//двигаем индексатор, если наше число отрицательное 
 		if (str[t] == '-') { t++; }
 		//число не может начинаться с запятой 
-		if (str[t] == ',') { a = false; } while (t < l)
+		if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 		{
-			if (str[t] == ',')
+			if (str[t] == ',' || str[t] == '.')
 				//если запятая стоит последним символом или запятая уже была найдена 
 			{
 				if (t == l - 1 || k > 0) { a = false; } k++;
@@ -759,9 +760,9 @@ private: System::Void textBox2_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;
@@ -790,9 +791,9 @@ private: System::Void textBox3_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;
@@ -821,16 +822,15 @@ private: System::Void textBox4_Leave(System::Object^ sender, System::EventArgs^ 
 	//двигаем индексатор, если наше число отрицательное 
 	if (str[t] == '-') { t++; }
 	//число не может начинаться с запятой 
-	if (str[t] == ',') { a = false; } while (t < l)
+	if (str[t] == ',' || str[t] == '.') { a = false; } while (t < l)
 	{
-		if (str[t] == ',')
+		if (str[t] == ',' || str[t] == '.')
 			//если запятая стоит последним символом или запятая уже была найдена 
 		{
 			if (t == l - 1 || k > 0) { a = false; } k++;
 		}
 		//если t-ый символ не лежит в диапазоне от '0' до '9' 
-		else if (str[t] < '0' ||
-			str[t] > '9') {
+		else if (str[t] < '0' || str[t] > '9') {
 			a = false;
 		}
 		t++;
@@ -841,6 +841,8 @@ private: System::Void textBox4_Leave(System::Object^ sender, System::EventArgs^ 
 		//возврат фокуса текстовому полю 
 		this->textBox4->Focus();
 	}
+}
+private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }

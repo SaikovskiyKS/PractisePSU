@@ -350,8 +350,7 @@ namespace CppCLRWinFormsProject {
 				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, System::Drawing::FontStyle::Strikeout, System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
 			}
 			//Устанавливает атрибуты «жирность», «курсив» для текста 
-			if ((checkBox1->Checked == true) && (checkBox2->Checked ==
-				true)) {
+			if ((checkBox1->Checked == true) && (checkBox2->Checked == true)) {
 				this->listBox1->Font = (gcnew System::Drawing::Font(L"Arial", 14, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)), System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
 			}
 			//Устанавливает атрибуты «жирность», «курсив» и «подчеркнутый» для текста 
